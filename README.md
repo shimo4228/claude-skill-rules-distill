@@ -42,7 +42,7 @@ The skill cross-reads all skills and the full rules text in a single inline pass
 
 ### Phase 3: User Review & Execution
 
-Candidates are presented with verdicts. The user approves, modifies, or skips each one. **Never modifies rules automatically** — rules load every session, so a bad rule has outsized blast radius.
+Candidates are presented in a summary table, then confirmed **one at a time** — each shows its evidence, violation risk, and draft text before asking `[y/n/skip]`; bulk approval is banned and the user can stop at any point. **Never modifies rules automatically** — rules load every session, so a bad rule has outsized blast radius.
 
 ## Verdict Types
 

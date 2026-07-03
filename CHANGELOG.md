@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2026-07-03
+
+### Changed
+
+- **Confirm-each flow in Phase 3.** Candidates are now confirmed one at a time — evidence, violation risk, and draft text first, then `[y/n/skip]` — with bulk approval explicitly banned (design borrowed from config-gc). Skipped candidates go to the ledger with `status: skipped`.
+- Related section now cross-references `rules-stocktake`, the inverse audit over the same skill/rule boundary.
+
+### Added
+
+- `scripts/sync-from-local.sh` — one-way export from the live Claude Code harness (vendored byte-identical across shimo4228 skill repos); the harness copy is canonical, this repository is the publication mirror.
+
 ## [2.0.0] - 2026-06-24
 
 Major redesign for the large-context era — same modernization as the sibling
