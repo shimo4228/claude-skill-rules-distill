@@ -1,6 +1,6 @@
 # rules-distill
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/rules-distill) [![GitMCP](https://img.shields.io/endpoint?url=https://gitmcp.io/badge/shimo4228/rules-distill)](https://gitmcp.io/shimo4228/rules-distill)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/rules-distill)
 
 An [Agent Skill](https://agentskills.io/specification) that scans your installed skills, extracts cross-cutting principles appearing in **2+ skills**, and distills them into rules — appending to existing rule files, revising outdated content, or creating new ones.
 
